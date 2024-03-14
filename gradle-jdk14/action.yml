@@ -15,7 +15,7 @@ inputs:
     default: false
 runs:
   using: "docker"
-  image: "docker://357375243774.dkr.ecr.us-west-2.amazonaws.com/snyk/snyk:gradle-jdk14"
+  image: "docker://snyk/snyk:gradle-jdk14"
   env:
     FORCE_COLOR: 2
     SNYK_INTEGRATION_NAME: GITHUB_ACTIONS

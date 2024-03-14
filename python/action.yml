@@ -15,7 +15,7 @@ inputs:
     default: false
 runs:
   using: "docker"
-  image: "docker://357375243774.dkr.ecr.us-west-2.amazonaws.com/snyk/snyk:python"
+  image: "docker://snyk/snyk:python"
   env:
     FORCE_COLOR: 2
     SNYK_INTEGRATION_NAME: GITHUB_ACTIONS
