@@ -20,7 +20,7 @@ inputs:
     default: true
 runs:
   using: "docker"
-  image: "docker://357375243774.dkr.ecr.us-west-2.amazonaws.com/snyk/snyk:alpine"
+  image: "docker://snyk/snyk:alpine"
   env:
     SNYK_INTEGRATION_NAME: GITHUB_ACTIONS
     SNYK_INTEGRATION_VERSION: iac
